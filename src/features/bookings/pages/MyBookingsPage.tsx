@@ -164,7 +164,6 @@ function TripCard({ booking, isCancelling, onCancel }: TripCardProps) {
         booking.listing?.images?.[0] ||
         "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&auto=format&fit=crop";
 
-    const guestCount = 1;
 
     const nights = Math.max(
         differenceInCalendarDays(

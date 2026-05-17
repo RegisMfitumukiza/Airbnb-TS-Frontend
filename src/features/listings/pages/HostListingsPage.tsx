@@ -4,9 +4,7 @@ import numeral from "numeral";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  FaEdit,
   FaEye,
-  FaImage,
   FaMapMarkerAlt,
   FaPlus,
   FaStar,
