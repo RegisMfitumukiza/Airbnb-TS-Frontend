@@ -18,6 +18,8 @@ export type Listing = {
     title: string;
     description: string;
     location: string;
+    latitude?: number | null;
+    longitude?: number | null;
     pricePerNight: number;
     guests: number;
     type: ListingType;

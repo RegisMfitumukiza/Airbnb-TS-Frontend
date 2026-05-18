@@ -5,6 +5,8 @@ export type CreateListingPayload = {
   title: string;
   description: string;
   location: string;
+  latitude?: number;
+  longitude?: number;
   pricePerNight: number;
   guests: number;
   type: ListingType;
